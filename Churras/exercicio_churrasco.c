@@ -319,8 +319,8 @@ main()
 				printf ("Total a pagar por pessoa com acrescimo \tR$: %.2f \n", total_por_pessoa);				
 				printf ("Abstemios tem 25%% de desconto.\n");
 				printf ("Total final a pagar para beberrao \tR$: %.2f\n", total_por_beberrao);
-	            printf ("Total final a pagar para abstemio \tR$: %.2f (25%% mais barato)\n", total_por_abstemio);
-	            printf ("Total bruto \t\t\t\tR$: %.2f \n", total_com_acrescimo);
+				printf ("Total final a pagar para abstemio \tR$: %.2f (25%% mais barato)\n", total_por_abstemio);
+				printf ("Total bruto \t\t\t\tR$: %.2f \n", total_com_acrescimo);
 	            
 	            				
 				break;
