@@ -10,6 +10,4 @@ main()
 	    resultado = numero * contador;
         printf ("\n%d X %d = %d", numero, contador, resultado);
 	}
-	
-
 }
