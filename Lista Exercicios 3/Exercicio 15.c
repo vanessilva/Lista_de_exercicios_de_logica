@@ -1,9 +1,9 @@
 main()
 {
 	int contador=0, total_sim=0, total_nao=0, total_mulheres_sim=0,
-	total_sexo=0, total_opniao=0, total_homens=0, total_homens_nao=0;
+	total_sexo=0, total_opiniao=0, total_homens=0, total_homens_nao=0;
 	float porcentagem;
-	char sexo, opniao;
+	char sexo, opiniao;
 	
 	for (contador = 1; contador <= 10; contador++)
 	{
@@ -11,22 +11,22 @@ main()
 		//achei ajuda na net para "%c%*c"
 		//http://stackoverflow.com/questions/9562218/c-multiple-scanfs-when-i-enter-in-a-value-for-one-scanf-it-skips-the-second-s
 		scanf ("%c%*c", &sexo);
-		printf ("Digite a opniao %d: ", contador);
-		scanf ("%c%*c", &opniao);
+		printf ("Digite a opiniao %d: ", contador);
+		scanf ("%c%*c", &opiniao);
 		total_sexo++;
-		total_opniao++;
+		total_opiniao++;
 		printf ("sexo %c\n", sexo);
-		printf ("opiniao %c", opniao);
+		printf ("opiniao %c", opiniao);
 		
-		if (opniao == 'S' || opniao == 's')
+		if (opiniao == 'S' || opiniao == 's')
 		{
 			total_sim++;
 		}
-		if (opniao == 'N' || opniao == 'n')
+		if (opiniao == 'N' || opiniao == 'n')
 		{
 			total_nao++;
 		}
-		if ((sexo == 'F' || sexo == 'f') && (opniao == 'S' || opniao == 's'))
+		if ((sexo == 'F' || sexo == 'f') && (opiniao == 'S' || opiniao == 's'))
 		{
 			total_mulheres_sim++;
 		}
@@ -34,7 +34,7 @@ main()
 		{
 			total_homens++;
 		}
-		if ((sexo == 'M' || sexo == 'm') && (opniao == 'N' || opniao == 'n'))
+		if ((sexo == 'M' || sexo == 'm') && (opiniao == 'N' || opiniao == 'n'))
 		{
 			total_homens_nao++;
 		}		
