@@ -1,3 +1,15 @@
+/*
+Uma agência bancária possui vários clientes que podem fazer
+investimentos com rendimentos mensais, conforme a tabela a seguir;
+1 - poupança = rendimento 1,5%
+2 - poupança plus = rendimento 2%
+3 - fundos de baixa renda = rendimento 4%
+Faça um programa que leia o código do cliente, o tipo do investimento e 
+o valor investido, e que calcule e mostre o rendimenro mensal de acordo
+com o tipo de investimento. No final deverá mostrar o total investido
+e o total de juros pagos.
+A leitura terminará quando o código do cliente for menor ou igual a 0.
+*/
 main()
 {
 	int codigo, opcao;

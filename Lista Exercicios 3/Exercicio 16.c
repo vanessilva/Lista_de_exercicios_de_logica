@@ -1,3 +1,8 @@
+/*
+Faça um programa que receba várias idades, calcule
+e mostre a média das idades digitadas. Finalize
+digitando igual a zero.
+*/
 main()
 {
 	int idade, contador, acumulador_idades;

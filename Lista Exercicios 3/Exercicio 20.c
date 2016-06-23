@@ -1,3 +1,17 @@
+/*
+Faça um programa que apresente um menu de opções a seguir:
+Menu de opções:
+1 - média aritimética
+2 - média ponderada
+3 - sair
+digite a opção desejada.
+na opção 1: receber duas notas, calcular e mostrar a média aritmética
+na opção 2: receber três notas e seus respectivos pesos, calcular
+e mostrar a média ponderada
+na opção 3: sair do programa
+verifique a possibilidade de opção inválida. Neste caso,
+o programa deverá mostrar uma mensagem.
+*/
 main()
 {
 	int opcao;

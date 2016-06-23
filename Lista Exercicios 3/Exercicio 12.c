@@ -1,22 +1,26 @@
+/*
+faça um programa que receba dez números inteiros e mostre
+a quantidade de números primos dentre os números que foram digitados.
+*/
 main()
 {
-	int num, contador, divisor, resto, c, qtd_numeros_primos;
+	int numero, contador, divisor, resto, cont, qtd_numeros_primos;
 	int eh_primo = 0;
 	 
-	for (c = 1; c<=10; c++)
+	for (cont = 1; cont<=10; cont++)
 	{
 		printf ("Digite numero inteiro: ");
-		scanf ("%d", &num);
+		scanf ("%d", &numero);
 		eh_primo = 1;
-		for (contador = 2; contador  < num; contador = contador + 1)
+		for (contador = 2; contador  < numero; contador = contador + 1)
 		{
-			resto = num % contador;
+			resto = numero % contador;
 			if (resto == 0)
 			{
 				eh_primo = 0;
 			}
 		}
-		if (eh_primo == 1 && num != 1)
+		if (eh_primo == 1 && numero != 1)
 		{
 			qtd_numeros_primos++;
 		}

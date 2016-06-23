@@ -1,3 +1,16 @@
+/*
+Faça um programa que receba idade de 15 pessoas, calcule e mostre:
+A quantidade de pessoas em cada faixa etária;
+A percentagem de pessoas na primeira e na última faixa etária,
+com relação ao total de pessoas.
+Faixa Etária
+Idade
+1ª Até 15 anos
+2ª De 16 a 30 anos
+3ª De 31 a 45 anos
+4ª De 46 a 60 anos
+5ª Acima de 60 anos
+*/
 main()
 {
 	int contador, idade, faixa_etaria_1=0, 

@@ -1,3 +1,11 @@
+/*
+Faça um programa em linguagem C que receba a idade,
+a altura e o peso de 25 pessoas, calcule e mostre:
+A quantidade de pessoas com idade superior a 50 anos;
+A média das alturas das pessoas com idade entre 10 e 20 anos;
+A porcentagem de pessoas com peso inferior a 40 quilos
+entre todas as pessoas analisadas.
+*/
 main()
 {
 	int idade, contador, terceira_idade=0, qtd_10_20=0,

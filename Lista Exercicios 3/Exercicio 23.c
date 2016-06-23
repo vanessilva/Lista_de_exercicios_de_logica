@@ -1,3 +1,17 @@
+/*
+Faça um programa que apresente o menu de opções a seguir, que
+permita ao usuário escolher a opção desejada, receba os dados
+necessários para executar a operação e mostre o resultado.
+Verifique a possibilidade de opção inválida e não se preocupe
+com restrições como salário inválido.
+menu de opções:
+1 - Novo salário (ate 210 = 15%, até 600 = 10% e acima de 600 = 5%)
+2 - Férias (calcular férias de acordo com o salário)
+3 - Décimo terceiro (calcular décimo terceiro)
+4 - Sair (sair do programa)
+digite a opção desejada
+
+*/
 main()
 {
 	int opcao, qtd_meses;
