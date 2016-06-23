@@ -3,19 +3,19 @@
 	Professor: Kleber Rezende
 	1REDES - IFSULDEMINAS
 	Autoras: Leticia Barbara Previ Azevedo e Vanessa Aparecida da Silva
-	Data da última alteração: 06/06/2016
+	Data da última alteração: 22/06/2016
 	
 */
 main()
 {
-	//variáveis de convidados
+
 	int qtd_beberroes, qtd_abstemios, total_convidados;
-	//Variáveis quantidades
+
 	int qtd_de_latas_cerveja, qtd_carne, qtd_linguicat, qtd_linguicaf, qtd_limao, qtd_tomate, qtd_cebola,
 			qtd_vinagre, qtd_pao, qtd_detergente, qtd_esponja;
-	//Variáveis de preços de bebidas
+
 	float qtd_de_lt_refri_normal, qtd_refri_diet, qtd_carvao, qtd_sal, qtd_papelh;
-	//Variáveis de preços de comidas
+
 	float preco_cerveja, preco_refri, preco_refri_diet, preco_carne, preco_linguicat, preco_linguicaf,
 			preco_limao, preco_tomate, preco_cebola, preco_vinagre, preco_pao, preco_carvao, preco_sal, preco_detergente,
 			preco_esponja, preco_papelh, total_cerveja, total_refri, total_refri_diet, total_carne,
@@ -259,8 +259,7 @@ main()
 				
 				
 				break;
-				
-				
+					
 			/* 
 				============================
 				Listar os precos cadastrados
@@ -289,9 +288,9 @@ main()
 				break;
 							
 			/* 
-				============================
-				
-				============================ 
+				========
+				Calculos
+				========
 			*/
 			case 4:
 				total_churrasco = total_cerveja + total_refri + total_refri_diet + total_carne + total_linguicat + 
@@ -311,10 +310,6 @@ main()
 				total_por_pessoa = total_com_acrescimo / total_convidados;
 				total_por_abstemio = total_com_acrescimo / (1.333 * qtd_beberroes + qtd_abstemios);
 				total_por_beberrao = 1.333 * total_por_abstemio;
-				
-				//total_por_beberrao = (total_com_acrescimo / total_convidados) + total_por_pessoa * 0.25;
-				//total_por_pessoa / 2 - 25%
-				//total_por_abstemio = (total_com_acrescimo / total_convidados) - total_por_pessoa * 0.25; 
 				
 				printf ("Total a pagar por pessoa com acrescimo \tR$: %.2f \n", total_por_pessoa);				
 				printf ("Abstemios tem 25%% de desconto.\n");
